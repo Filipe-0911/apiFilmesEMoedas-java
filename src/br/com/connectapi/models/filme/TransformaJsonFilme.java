@@ -23,10 +23,4 @@ public class TransformaJsonFilme {
         return Plot;
     }
 
-    
-
-
-
-    
-
 }
