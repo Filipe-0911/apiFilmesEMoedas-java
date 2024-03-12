@@ -1,18 +1,21 @@
-## Getting Started
+## Conexões com API OMDb, TheMealDb e ExchangeGenerate
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Fiz este projeto para treinar conexões com APIs utilizando a linguagem Java.
+Nele, ao receber a resposta da API, utilizei a lib jackson para manipular a resposta JSON da API.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+O workspace contém 2 pastas por padrão, onde:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: contém os arquivos fonte;
+- `lib`: contém as bibliotecas externas utilizadas no projeto (Jackson);
+- `br/com/conectaapi`: contém as pastas principais do projeto tais como: interfaces, models, ConexaoAPis, filme e receitasMeal;
+- `br/com/conectaapi/interfaces`: contém as duas interfaces utilizadas no projeto, uma para as conexoes com as APIs e outras para as classes Filme, Comida e Coin;
+- `br/com/conectaapi/models`: contém as classes utilizadas no projeto separadas por outras 4 pastas;
+- `br/com/conectaapi/models/coinConverter`: contém as classes relativas à criação de comparações da moeda escolhida com o real;
+- `br/com/conectaapi/models/ConexaoAPis`: contém as classes relativas à criação de conexões com as API's;
+- `br/com/conectaapi/models/filme`: contém as classes relativas à criação de filmes;
+- `br/com/conectaapi/models/receitasMeal`: contém as classes relativas à criação de receitas;
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Enquanto isso, os arquivos de saída compilados serão gerados na pasta `bin` por padrão.
